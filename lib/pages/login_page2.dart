@@ -65,24 +65,31 @@ class _LoginPage2State extends State<LoginPage2> {
                   setState(() {
                     changeButton = true;
                   });
-                  await Future.delayed(Duration(seconds: 1),);
-                  Navigator.pushNamed(context, MyRoutes.homeRoute);
+                  await Future.delayed(
+                    Duration(seconds: 1),
+                  );
+                  // Navigator.pushNamed(context, MyRoutes.homeRoute);
                 },
                 child: AnimatedContainer(
                   duration: Duration(seconds: 1),
                   height: 40,
                   width: changeButton ? 40 : 100,
                   alignment: Alignment.center,
-                  child:changeButton?Text("Done",style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.white,
-                  ),): Text(
-                    "LogIn",
-                    style: TextStyle(
-                      fontSize: 15,
-                      color: Colors.white,
-                    ),
-                  ),
+                  child: changeButton
+                      ? Text(
+                          "Done",
+                          style: TextStyle(
+                            fontSize: 15,
+                            color: Colors.white,
+                          ),
+                        )
+                      : Text(
+                          "LogIn",
+                          style: TextStyle(
+                            fontSize: 15,
+                            color: Colors.white,
+                          ),
+                        ),
                   decoration: BoxDecoration(
                     color: Colors.purple,
                     borderRadius: BorderRadius.circular(
