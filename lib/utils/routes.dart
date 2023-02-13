@@ -3,4 +3,7 @@ class MyRoutes{
   static String loginRoute = "/login";
   static String login2Route = "/login2";
   static String signUpRoute = "/signup";
+  static String loginScreenRoute = "/LoginScreen";
+  static String loginScreenRoute2 = "/LoginScreen2";
+  static String signUpScreenRoute = "/signUpScreenRoute";
 }
