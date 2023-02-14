@@ -86,6 +86,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_color:
+    dependency: "direct main"
+    description:
+      name: flutter_color
+      sha256: bfb4367f4a00a269759b0a4cc3e3aa5aa40e5d9a5f6edf6634736fe799823cea
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -99,6 +107,22 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  fluttericon:
+    dependency: "direct main"
+    description:
+      name: fluttericon
+      sha256: "252fa8043826e93d972a602497a260cb3d62b5aea6d045793e4381590f2c1e99"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
+  font_awesome_flutter:
+    dependency: "direct main"
+    description:
+      name: font_awesome_flutter
+      sha256: "959ef4add147753f990b4a7c6cccb746d5792dbdc81b1cde99e62e7edb31b206"
+      url: "https://pub.dev"
+    source: hosted
+    version: "10.4.0"
   google_fonts:
     dependency: "direct main"
     description:

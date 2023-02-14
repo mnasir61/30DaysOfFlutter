@@ -8,9 +8,20 @@ class LoginScreen2 extends StatefulWidget {
 
 class _LoginScreen2State extends State<LoginScreen2> {
   bool changeSignUp = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        title: Text(
+          "Login",
+          style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+        ),
+        leading: BackButton(
+          color: Colors.black,
+        ),
+      ),
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Center(
@@ -60,11 +71,9 @@ class _LoginScreen2State extends State<LoginScreen2> {
                   ),
                   child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: 8),
-                    child: TextFormField(style: TextStyle(fontSize: 17),
-                      decoration: InputDecoration(
-                        border: InputBorder.none,
-                        hintText: "Enter email"
-                      ),
+                    child: TextFormField(
+                      style: TextStyle(fontSize: 17),
+                      decoration: InputDecoration(border: InputBorder.none, hintText: "Enter email"),
                     ),
                   ),
                 ),
@@ -93,11 +102,9 @@ class _LoginScreen2State extends State<LoginScreen2> {
                   ),
                   child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: 8),
-                    child: TextFormField(style: TextStyle(fontSize: 17),
-                      decoration: InputDecoration(
-                          border: InputBorder.none,
-                          hintText: "Enter password"
-                      ),
+                    child: TextFormField(
+                      style: TextStyle(fontSize: 17),
+                      decoration: InputDecoration(border: InputBorder.none, hintText: "Enter password"),
                     ),
                   ),
                 ),
@@ -120,18 +127,27 @@ class _LoginScreen2State extends State<LoginScreen2> {
                     borderRadius: BorderRadius.circular(30),
                   ),
                 ),
-                SizedBox(height: 25,),
-                Row(mainAxisAlignment: MainAxisAlignment.center,
+                SizedBox(
+                  height: 25,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text("Don't have an account?"),
-                    InkWell(onTap: (){
-                      setState(() async {
-                        changeSignUp = true;
-                        await Future.delayed(Duration(seconds: 1),);
-                        Navigator.pushNamed(context, MyRoutes.signUpScreenRoute);
-                      });
-                    },
-                        child: Text("SignUp",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),)),
+                    InkWell(
+                        onTap: () {
+                          setState(() async {
+                            changeSignUp = true;
+                            await Future.delayed(
+                              Duration(seconds: 1),
+                            );
+                            Navigator.pushNamed(context, MyRoutes.signUpScreenRoute);
+                          });
+                        },
+                        child: Text(
+                          "SignUp",
+                          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                        )),
                   ],
                 ),
               ],

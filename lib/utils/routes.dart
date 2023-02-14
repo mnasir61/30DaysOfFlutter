@@ -6,4 +6,6 @@ class MyRoutes{
   static String loginScreenRoute = "/LoginScreen";
   static String loginScreenRoute2 = "/LoginScreen2";
   static String signUpScreenRoute = "/signUpScreenRoute";
+  static String tikTokUI = "/tikTokUi";
+  static String gradientTesting = "/gradientTest";
 }
