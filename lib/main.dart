@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_color/flutter_color.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:untitled/pages/counter_app.dart';
+import 'package:untitled/pages/day7.dart';
 import 'package:untitled/pages/gradient_testing.dart';
 import 'package:untitled/pages/home_page.dart';
 import 'package:untitled/pages/login_page.dart';
@@ -29,9 +31,9 @@ class MyApp extends StatelessWidget {
         // primarySwatch: Colors.purple,
         fontFamily: GoogleFonts.lato().fontFamily,
       ),
-      // initialRoute: "/Home",
+      initialRoute: "/day7",
       routes: {
-        "/": (context) => GradientTesting(),
+        "/": (context) => HomePage(),
         MyRoutes.homeRoute: (context) => HomePage(),
         MyRoutes.loginRoute: (context) => LoginPage(),
         MyRoutes.login2Route: (context) => LoginPage2(),
@@ -41,6 +43,8 @@ class MyApp extends StatelessWidget {
         MyRoutes.signUpScreenRoute: (context) => SignUpScreen(),
         MyRoutes.tikTokUI: (context) => TikTokUI(),
         MyRoutes.gradientTesting: (context) => GradientTesting(),
+        MyRoutes.counterApp: (context) => CounterApp(),
+        MyRoutes.day7: (context)=> Day7(),
       },
     );
   }

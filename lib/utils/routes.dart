@@ -8,4 +8,6 @@ class MyRoutes{
   static String signUpScreenRoute = "/signUpScreenRoute";
   static String tikTokUI = "/tikTokUi";
   static String gradientTesting = "/gradientTest";
+  static String counterApp = "/counterApp";
+  static String day7 = "/day7";
 }
