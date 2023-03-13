@@ -10,4 +10,11 @@ class MyRoutes{
   static String gradientTesting = "/gradientTest";
   static String counterApp = "/counterApp";
   static String day7 = "/day7";
+  static String onboardingpage = "/OnBoardingPage";
+  static String ListViewExample = "/ListViewExample";
+  static String ListViewBuilderExample = "/ListViewBuilderExample";
+  static String ListView2 = "/ListView2";
+  static String catalogPage = "/CatalogPage";
+  static String youtubeSearchPage = "/YoutubeSearchPage";
+  static String videoPlay = "/VideoPlay";
 }

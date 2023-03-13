@@ -1,0 +1,68 @@
+{
+  "Products": [
+    {
+      "id" : 1,
+      "name": "iPhone 12 Pro",
+      "description": "Iphone 12 Pro 12th Generation",
+      "price": 999.99,
+      "color": "#000000",
+      "image": "https://m.media-amazon.com/images/I/51eFLpwa5JL.jpg"
+    },
+    {
+      "id" : 2,
+      "name": "Apple Airpods 3",
+      "description": "Black Color & Spacial audio with dynamic head",
+      "price": 119.99,
+      "color": "#000000",
+      "image": "https://tiktec.pk/wp-content/uploads/2022/05/airpods-3-1-666x666.png"
+    },
+    {
+      "id" : 3,
+      "name": "Apple Mackbook Air M1",
+      "description": "Apple MacBook Air M1 MGN63 Laptop, Processor:- M1 Chip",
+      "price": 960.25,
+      "color": "#000000",
+      "image": "https://m.media-amazon.com/images/I/31YH5wvKCfL.jpg"
+    },
+    {
+      "id" : 4,
+      "name": "Apple Mackbook M2 Pro",
+      "description": "Apple MacBook M2 Pro MGN63 Laptop, Processor:- M2 pro Chip",
+      "price": 1899.99,
+      "color": "#000000",
+      "image": "https://m.media-amazon.com/images/G/15/DVD/02_AMZ_FamilyStripe_MacBook_Air_Retina_M1._CB667424444_.png"
+    },
+    {
+      "id" : 5,
+      "name": "Apple Watch Series 8",
+      "description": "Silver Aluminum series 8",
+      "price": 219.99,
+      "color": "#000000",
+      "image": "https://applehub.pk/wp-content/uploads/2022/09/MP6.jpeg"
+    },
+    {
+      "id" : 6,
+      "name": "Apple AirPods Max",
+      "description": "Sky Blue AirPods Max",
+      "price": 369.99,
+      "color": "#000000",
+      "image": "https://m.media-amazon.com/images/I/81TNipD+HkL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id" : 7,
+      "name": "Apple iPad 32GB ",
+      "description": "8th Generation, Gorgeous 10.2-Inch Retina Display - A12 Bionic Chip with Neural Engine",
+      "price": 289.99,
+      "color": "#000000",
+      "image": "https://m.media-amazon.com/images/I/71sy24q+J+L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id" : 8,
+      "name": "iPhone 13 Pro Max",
+      "description": "1TB Silver Unlocked 6.7 Super Retina XDR display with ProMotion. 5G Superfast downloads",
+      "price": 1289.99,
+      "color": "#000000",
+      "image": "https://m.media-amazon.com/images/I/51ysuS9QwTL.jpg"
+    }
+  ]
+}
